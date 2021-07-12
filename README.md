@@ -1,2 +1,2 @@
-# Blog
-静态网页配置
+# cartzilla
+All static files for ecommerce store
