@@ -1,17 +1,20 @@
 <template>
-  <Signin  />
+  <Signin />
   <Navbar />
-  <FooterPage  />
+  <router-view />
+  <FooterPage />
   <BackToTopButton />
+  <ToolbarForHandheldDevices />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import  Signin  from './components/SigninModal.vue'
-import  Navbar  from './components/Navbar.vue'
-import  FooterPage  from './components/FooterPage.vue'
-import  BackToTopButton  from './components/BackToTopButton.vue'
+import Signin from './components/SigninModal.vue'
+import Navbar from './components/Navbar.vue'
+import FooterPage from './components/FooterPage.vue'
+import BackToTopButton from './components/BackToTopButton.vue'
+import ToolbarForHandheldDevices from './components/ToolbarForHandheldDevices.vue'
 
 export default defineComponent({
   name: 'App',
@@ -19,7 +22,8 @@ export default defineComponent({
     Signin,
     Navbar,
     FooterPage,
-    BackToTopButton
+    BackToTopButton,
+    ToolbarForHandheldDevices
   }
 })
 </script>
