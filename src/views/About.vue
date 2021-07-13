@@ -4,7 +4,7 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary"
-                style="min-height: 15rem; background-image: url(img/about/01.jpg);"
+                style="min-height: 15rem; background-image: url(../assets/images/about/01.jpg);"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
@@ -20,7 +20,7 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2"
-                style="min-height: 15rem; background-image: url(img/about/02.jpg);"
+                style="min-height: 15rem; background-image: url(../assets/images/about/02.jpg);"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
@@ -36,7 +36,7 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary"
-                style="min-height: 15rem; background-image: url(img/about/03.jpg);"
+                style="min-height: 15rem; background-image: url(../assets/images/about/03.jpg);"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
@@ -59,7 +59,7 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2"
-                style="min-height: 15rem; background-image: url(img/about/04.jpg);"
+                style="min-height: 15rem; background-image: url(../assets/images/about/04.jpg);"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
@@ -81,7 +81,7 @@
                     <div class="d-flex align-items-center">
                         <img
                             class="rounded-circle"
-                            src="img/team/03.jpg"
+                            src="../assets/images/team/03.jpg"
                             width="96"
                             alt="Jonathan Doe"
                         />
@@ -101,7 +101,7 @@
                     <div class="d-flex align-items-center">
                         <img
                             class="rounded-circle"
-                            src="img/team/04.jpg"
+                            src="../assets/images/team/04.jpg"
                             width="96"
                             alt="Barbara Palson"
                         />
@@ -121,7 +121,7 @@
                     <div class="d-flex align-items-center">
                         <img
                             class="rounded-circle"
-                            src="img/team/06.jpg"
+                            src="../assets/images/team/06.jpg"
                             width="96"
                             alt="William Smith"
                         />
@@ -141,7 +141,7 @@
                     <div class="d-flex align-items-center">
                         <img
                             class="rounded-circle"
-                            src="img/team/02.jpg"
+                            src="../assets/images/team/02.jpg"
                             width="96"
                             alt="Amanda Gallaher"
                         />
@@ -161,7 +161,7 @@
                     <div class="d-flex align-items-center">
                         <img
                             class="rounded-circle"
-                            src="img/team/01.jpg"
+                            src="../assets/images/team/01.jpg"
                             width="96"
                             alt="Benjamin Miller"
                         />
@@ -181,7 +181,7 @@
                     <div class="d-flex align-items-center">
                         <img
                             class="rounded-circle"
-                            src="img/team/07.jpg"
+                            src="../assets/images/team/07.jpg"
                             width="96"
                             alt="Miguel Rodrigez"
                         />
@@ -204,7 +204,7 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2"
-                style="min-height: 15rem; background-image: url(img/about/05.jpg);"
+                style="min-height: 15rem; background-image: url(../assets/images/about/05.jpg);"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">

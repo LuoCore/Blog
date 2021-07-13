@@ -2,7 +2,7 @@
     <!-- Hero section-->
     <section
         class="bg-accent bg-position-center bg-size-cover py-3 py-sm-5"
-        style="background-image: url(img/intro/intro-hero.jpg);"
+        style="background-image: url(../assets/images/intro/intro-hero.jpg);"
     >
         <div class="container py-5">
             <div class="row pt-md-5 pb-lg-5 justify-content-center">
@@ -61,7 +61,7 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-fashion-store-v1.html"></a>
-                        <img src="img/home/preview/01.jpg" alt="Fashion Store v.1" />
+                        <img src="../assets/images/home/preview/01.jpg" alt="Fashion Store v.1" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
@@ -90,7 +90,7 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-electronics-store.html"></a>
-                        <img src="img/home/preview/03.jpg" alt="Electronics Store" />
+                        <img src="../assets/images/home/preview/03.jpg" alt="Electronics Store" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
@@ -119,7 +119,7 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-food-delivery.html"></a>
-                        <img src="img/home/preview/07.jpg" alt="Food Delivery Service" />
+                        <img src="../assets/images/home/preview/07.jpg" alt="Food Delivery Service" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
@@ -148,7 +148,7 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-marketplace.html"></a>
-                        <img src="img/home/preview/04.jpg" alt="Multi-vendor Marketplace" />
+                        <img src="../assets/images/home/preview/04.jpg" alt="Multi-vendor Marketplace" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
@@ -177,7 +177,7 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-grocery-store.html"></a>
-                        <img src="img/home/preview/06.jpg" alt="Grocery Store" />
+                        <img src="../assets/images/home/preview/06.jpg" alt="Grocery Store" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
@@ -206,7 +206,7 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-fashion-store-v2.html"></a>
-                        <img src="img/home/preview/02.jpg" alt="Fashion Store v.2" />
+                        <img src="../assets/images/home/preview/02.jpg" alt="Fashion Store v.2" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
@@ -235,7 +235,7 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-single-store.html"></a>
-                        <img src="img/home/preview/05.jpg" alt="Single Product / Brand Store" />
+                        <img src="../assets/images/home/preview/05.jpg" alt="Single Product / Brand Store" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
@@ -247,7 +247,7 @@
             <div class="col-sm-6 mb-4">
                 <div class="card product-card-alt">
                     <div class="product-thumb">
-                        <img src="img/home/preview/coming.png" alt="Coming Soon" />
+                        <img src="../assets/images/home/preview/coming.png" alt="Coming Soon" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="fs-lg pt-2">未来 很快</h3>
@@ -301,7 +301,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-7 offset-xl-1">
-                    <img src="img/intro/pages-showcase.jpg" alt="Cartzilla pages" />
+                    <img src="../assets/images/intro/pages-showcase.jpg" alt="Cartzilla pages" />
                 </div>
             </div>
         </div>
@@ -324,10 +324,10 @@
                         <span class="fw-medium">工具栏</span> 专为手持设备而设计，以进一步提高用户体验.
                     </p>
                     <p class="fs-sm">扫描下面的QR码在您的设备上测试:</p>
-                    <img src="img/intro/qrcode.png" width="150" alt="QR code" />
+                    <img src="../assets/images/intro/qrcode.png" width="150" alt="QR code" />
                 </div>
                 <div class="col-md-6">
-                    <img class="d-block mx-auto" src="img/intro/handheld-toolbar.jpg" alt="Toolbar" />
+                    <img class="d-block mx-auto" src="../assets/images/intro/handheld-toolbar.jpg" alt="Toolbar" />
                 </div>
             </div>
         </div>
@@ -344,7 +344,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/01.png"
+                        src="../assets/images/intro/features/01.png"
                         width="90"
                         alt="Gulp icon"
                     />
@@ -356,7 +356,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/02.png"
+                        src="../assets/images/intro/features/02.png"
                         width="90"
                         alt="Sass icon"
                     />
@@ -368,7 +368,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/03.png"
+                        src="../assets/images/intro/features/03.png"
                         width="90"
                         alt="Pug icon"
                     />
@@ -380,7 +380,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/04.png"
+                        src="../assets/images/intro/features/04.png"
                         width="90"
                         alt="Bootstrap icon"
                     />
@@ -392,7 +392,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/05.png"
+                        src="../assets/images/intro/features/05.png"
                         width="90"
                         alt="Web Components icon"
                     />
@@ -404,7 +404,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/06.png"
+                        src="../assets/images/intro/features/06.png"
                         width="90"
                         alt="Mobile Friendly icon"
                     />
@@ -416,7 +416,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/07.png"
+                        src="../assets/images/intro/features/07.png"
                         width="90"
                         alt="Google Fonts icon"
                     />
@@ -428,7 +428,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/08.png"
+                        src="../assets/images/intro/features/08.png"
                         width="90"
                         alt="Touch icon"
                     />
@@ -440,7 +440,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/09.png"
+                        src="../assets/images/intro/features/09.png"
                         width="90"
                         alt="Vector icon"
                     />
@@ -452,7 +452,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/10.png"
+                        src="../assets/images/intro/features/10.png"
                         width="90"
                         alt="HTML5 icon"
                     />
@@ -464,7 +464,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/11.png"
+                        src="../assets/images/intro/features/11.png"
                         width="90"
                         alt="JavaScript icon"
                     />
@@ -476,7 +476,7 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="img/intro/features/12.png"
+                        src="../assets/images/intro/features/12.png"
                         width="90"
                         alt="Documentation icon"
                     />
