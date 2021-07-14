@@ -3,8 +3,8 @@
   <Navbar />
   <router-view />
   <FooterPage />
-  <BackToTopButton />
   <ToolbarForHandheldDevices />
+  <BackToTopButton />
 </template>
 
 <script lang="ts">
@@ -27,4 +27,3 @@ export default defineComponent({
   }
 })
 </script>
-
