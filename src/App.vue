@@ -25,5 +25,8 @@ export default defineComponent({
     BackToTopButton,
     ToolbarForHandheldDevices
   }
-})
+});
+
+
 </script>
+

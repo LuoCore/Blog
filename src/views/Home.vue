@@ -2,7 +2,7 @@
     <!-- Hero section-->
     <section
         class="bg-accent bg-position-center bg-size-cover py-3 py-sm-5"
-        style="background-image: url(../assets/images/intro/intro-hero.jpg);"
+        style="background-image: url(../img/intro/intro-hero.jpg);"
     >
         <div class="container py-5">
             <div class="row pt-md-5 pb-lg-5 justify-content-center">
