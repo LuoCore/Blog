@@ -1,12 +1,13 @@
 <template>
     <div class="handheld-toolbar">
         <div class="d-table table-layout-fixed w-100">
-            <a class="d-table-cell handheld-toolbar-item" href="account-wishlist.html">
+
+            <router-link to="/About" class="d-table-cell handheld-toolbar-item">
                 <span class="handheld-toolbar-icon">
                     <i class="ci-heart"></i>
                 </span>
-                <span class="handheld-toolbar-label">Wishlist</span>
-            </a>
+                <span class="handheld-toolbar-label">关于我们</span>
+            </router-link>
             <a
                 class="d-table-cell handheld-toolbar-item"
                 href="javascript:void(0)"
@@ -17,15 +18,16 @@
                 <span class="handheld-toolbar-icon">
                     <i class="ci-menu"></i>
                 </span>
-                <span class="handheld-toolbar-label">Menu</span>
+                <span class="handheld-toolbar-label">菜单</span>
             </a>
-            <a class="d-table-cell handheld-toolbar-item" href="shop-cart.html">
+            <router-link to="/BlogSingle" class="d-table-cell handheld-toolbar-item">
                 <span class="handheld-toolbar-icon">
                     <i class="ci-cart"></i>
                     <span class="badge bg-primary rounded-pill ms-1">4</span>
                 </span>
-                <span class="handheld-toolbar-label">$265.00</span>
-            </a>
+                <span class="handheld-toolbar-label">博客</span>
+            </router-link>
+            
         </div>
     </div>
 </template>

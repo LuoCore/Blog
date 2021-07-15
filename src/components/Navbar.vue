@@ -37,7 +37,7 @@
                             <router-link to="/About" class="nav-link">关于我们</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/BlogSingle" class="nav-link">LuoCore博客</router-link>
+                            <router-link to="/BlogSingle" class="nav-link">博客</router-link>
                         </li>
                     </ul>
                 </div>
