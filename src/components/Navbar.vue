@@ -19,25 +19,37 @@
                     </button>
                     <a
                         class="btn btn-primary btn-shadow"
-                        href="http://www.luocore.com"
+                        href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
                         target="_blank"
                         rel="noopener"
                     >
-                        <i class="ci-cart me-2"></i>Luo Core
+                        <i class="ci-cart me-2"></i>Buy now
                     </a>
                 </div>
                 <div class="collapse navbar-collapse me-auto order-lg-2" id="navbarCollapse">
                     <hr class="my-3" />
-                    <!-- Primary menu 主菜单 -->
+                    <!-- Primary menu 主菜单-->
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <router-link to="/" class="nav-link">首页</router-link>
+                        <li
+                            class="nav-item"
+                            v-on:click="addActiveClass('1')"
+                            :class="{ active: currentValue == '1' }"
+                        >
+                            <router-link class="nav-link" to="/">首页</router-link>
                         </li>
-                        <li class="nav-item">
-                            <router-link to="/About" class="nav-link">关于我们</router-link>
+                        <li
+                            class="nav-item"
+                            v-on:click="addActiveClass('2')"
+                            :class="{ active: currentValue == '2' }"
+                        >
+                            <router-link class="nav-link" to="/About">关于我</router-link>
                         </li>
-                        <li class="nav-item">
-                            <router-link to="/BlogSingle" class="nav-link">博客</router-link>
+                        <li
+                            class="nav-item"
+                            @click="addActiveClass('3')"
+                            :class="{ active: currentValue == '3' }"
+                        >
+                            <router-link class="nav-link" to="/BlogSingle">博客</router-link>
                         </li>
                     </ul>
                 </div>
@@ -48,7 +60,19 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+
 export default defineComponent({
-    name: 'Navbar'
+    name: 'Navbar',
+    data() {
+
+        return {
+            currentValue: "1"
+        }
+    },
+    methods: {
+        addActiveClass: function(index: string) {
+            this.currentValue = index;
+        }
+    }
 })
 </script>
