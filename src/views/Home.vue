@@ -1,8 +1,9 @@
  <template>
+
     <!-- Hero section-->
     <section
         class="bg-accent bg-position-center bg-size-cover py-3 py-sm-5"
-        style="background-image: url(../img/intro/intro-hero.jpg);"
+        style="background-image: url(/img/intro/intro-hero.jpg);"
     >
         <div class="container py-5">
             <div class="row pt-md-5 pb-lg-5 justify-content-center">
@@ -31,7 +32,6 @@
             </div>
         </div>
     </section>
-
     <!-- Demos section-->
     <section class="container pt-5 pb-3 pb-lg-5" id="demos">
         <div class="text-center pt-md-4 pb-2">
@@ -256,7 +256,6 @@
             </div>
         </div>
     </section>
-
     <!-- Cartzilla pages section-->
     <section class="bg-dark py-5">
         <div class="container py-3 py-lg-4">
@@ -306,7 +305,6 @@
             </div>
         </div>
     </section>
-
     <!-- Cartzill handheld toolbar-->
     <section class="bg-secondary py-4">
         <div class="container pt-4 pt-md-0">
@@ -332,7 +330,6 @@
             </div>
         </div>
     </section>
-
     <!-- Cartzilla features section-->
     <section class="py-5">
         <div class="container py-3 py-lg-4">
@@ -487,12 +484,10 @@
             <h6 class="text-center">以及更多...</h6>
         </div>
     </section>
-
-  
 </template>
 
 <script lang="ts">
-import {defineComponent } from 'vue'
+import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: 'Home'

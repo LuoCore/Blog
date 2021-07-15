@@ -1,28 +1,16 @@
 <template>
-    <footer class="border-top py-5">
-        <div class="container text-center pt-3 pt-lg-4">
-            <h3 class="fw-light">LuoCore</h3>
-            <h2 class="pb-4">相信一万小时定律.</h2>
-            <a
-                class="btn btn-primary btn-lg"
-                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
-                target="_blank"
-                rel="noopener"
-            >
-                <i class="ci-cart me-2"></i>LuoCore
-            </a>
-            <hr class="my-5" />
-            <div class="fs-ms text-muted text-center">
-                © 版权所有® &nbsp;&nbsp;LuoCore&nbsp;&nbsp;
-                <a
-                    class="text-muted"
-                    href="http://www.luocore.com/"
-                    target="_blank"
-                    rel="noopener"
-                >粤ICP备19059040号</a>
-            </div>
-        </div>
-    </footer>
+   <footer class="border-top py-5">
+      <div class="container text-center pt-3 pt-lg-4">
+          <h3 class="fw-light">仍然不相信?</h3>
+          <h2 class="pb-4">添加保费支持和生命周期更新.</h2>
+          <a class="btn btn-primary btn-lg" href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/" target="_blank" rel="noopener">
+              <i class="ci-cart me-2">
+              </i>买cartzilla.
+          </a>
+          <hr class="my-5">
+          <div class="fs-ms text-muted text-center">© 版权所有。由制成 <a class="text-muted" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a></div>
+      </div>
+  </footer>
 </template>
 
 <script lang="ts">

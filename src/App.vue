@@ -1,3 +1,9 @@
+<style>
+@import "./assets/vendor/simplebar/dist/simplebar.min.css";
+@import "./assets/vendor/tiny-slider/dist/tiny-slider.css";
+@import "./assets/css/theme.min.css";
+</style>
+
 <template>
   <Signin />
   <Navbar />
@@ -5,9 +11,6 @@
   <FooterPage />
   <ToolbarForHandheldDevices />
   <BackToTopButton />
-
- 
-
 </template>
 
 
@@ -15,7 +18,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import Signin from './components/SigninModal.vue'
+import Signin from './components/Signin.vue'
 import Navbar from './components/Navbar.vue'
 import FooterPage from './components/FooterPage.vue'
 import BackToTopButton from './components/BackToTopButton.vue'
@@ -33,5 +36,12 @@ export default defineComponent({
 });
 
 
+import './assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'
+import './assets/vendor/simplebar/dist/simplebar.min.js'
+import './assets/vendor/tiny-slider/dist/min/tiny-slider.js'
+import './assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js'
+import './assets/js/theme.min.js'
+
 </script>
+
 
