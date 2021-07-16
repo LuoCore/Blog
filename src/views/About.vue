@@ -2,11 +2,7 @@
     <main class="container-fluid px-0">
         <!-- Row: Shop online-->
         <section class="row g-0">
-            <div
-                class="col-md-6 bg-position-center bg-size-cover bg-secondary"
-    
-                :style="{ minHeight: '15rem',backgroundImage: 'url(../assets/images/about/01.jpg)' }"
-            ></div>
+            <div class="col-md-6 bg-position-center bg-size-cover bg-secondary"></div>
             <div class="col-md-6 px-3 px-md-5 py-5">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
                     <h2 class="h3 pb-3">Search, Select, Buy online</h2>
@@ -21,7 +17,7 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2"
-                :style="{ minHeight: '15rem',backgroundImage: 'url(../assets/images/about/02.jpg)' }"
+                :style="{ minHeight: '15rem', backgroundImage: 'url(../assets/images/about/02.jpg)' }"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
@@ -35,10 +31,11 @@
         </section>
         <!-- Row: Mobile app   :style="{min-height: 15rem; background-image: url(../assets/images/about/03.jpg)}"-->
         <section class="row g-0">
-            <div class="col-md-6 bg-position-center bg-size-cover bg-secondary"
-            :style="{ minHeight: '15rem',backgroundImage: 'url(../assets/images/about/03.jpg)' }"
+            <div
+                class="col-md-6 bg-position-center bg-size-cover bg-secondary"
+                :style="{ minHeight: '15rem', backgroundImage: 'url(../assets/images/about/03.jpg)' }"
             ></div>
-           
+
             <div class="col-md-6 px-3 px-md-5 py-5">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
                     <h2 class="h3 pb-3">Great mobile app. Shop on the go</h2>
@@ -60,11 +57,11 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2"
-                :style="{ minHeight: '15rem',backgroundImage: 'url('+require('../assets/images/about/04.jpg')+')' }"
+                :style="background"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
-                    <h2 class="h3 pb-3">Shop offline. Cozy outlet stores</h2>
+                    <h2 class="h3 pb-3">我在这里啊</h2>
                     <p
                         class="fs-sm pb-3 text-muted"
                     >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus pellentesque faucibus a quis eros. In eu fermentum leo. Integer ut eros lacus. Proin ut accumsan leo. Morbi vitae est eget dolor consequat aliquam eget quis dolor. Mauris rutrum fermentum erat, at euismod lorem pharetra nec. Duis erat lectus, ultrices euismod sagittis at, pharetra eu nisl. Phasellus id ante at velit tincidunt hendrerit. Aenean dolor dolor tristique nec. Tristique nulla aliquet enim tortor at auctor urna nunc. Sit amet aliquam id diam maecenas ultricies mi eget.</p>
@@ -251,6 +248,28 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: 'About',
-  
+    data(){
+	 return {
+ 	    	//动态url,
+	 	    backgroundImgUrl:"../assets/images/about/02.jpg"
+	    }
+     },
+     //一定要在 computed 里定义 background 才能引用的到 backgroundImgUrl，
+     //原因嘛:可能是 backgroundImgUrl 是在data 里可变的，所以需要computed计算使用
+     computed:{
+ 		    background:function(){
+                 return {
+           		 backgroundImage:"url("+this.backgroundImgUrl+")",
+            	 backgroundRepeat:'no-repeat',
+           		 backgroundSize:"cover",
+           		 backgroundPosition:"center center"
+          		}
+        	}
+        }
+
+
+
+
+
 })
 </script>
