@@ -1,7 +1,9 @@
 <style>
+
 @import "./assets/vendor/simplebar/dist/simplebar.min.css";
 @import "./assets/vendor/tiny-slider/dist/tiny-slider.css";
 @import "./assets/css/theme.min.css";
+
 </style>
 
 <template>
@@ -41,7 +43,6 @@ import './assets/vendor/simplebar/dist/simplebar.min.js'
 import './assets/vendor/tiny-slider/dist/min/tiny-slider.js'
 import './assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js'
 import './assets/js/theme.min.js'
-
 </script>
 
 
