@@ -4,14 +4,15 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary"
-                style="min-height: 15rem; background-image: url(../assets/images/about/01.jpg);"
+    
+                :style="{ minHeight: '15rem',backgroundImage: 'url(../assets/images/about/01.jpg)' }"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
                     <h2 class="h3 pb-3">Search, Select, Buy online</h2>
                     <p
                         class="fs-sm pb-3 text-muted"
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus pellentesque faucibus a quis eros. In eu fermentum leo. Integer ut eros lacus. Proin ut accumsan leo. Morbi vitae est eget dolor consequat aliquam eget quis dolor. Mauris rutrum fermentum erat, at euismod lorem pharetra nec. Duis erat lectus, ultrices euismod sagittis at, pharetra eu nisl. Phasellus id ante at velit tincidunt hendrerit. Aenean dolor dolor tristique nec. Tristique nulla aliquet enim tortor at auctor urna nunc. Sit amet aliquam id diam maecenas ultricies mi eget.</p>
+                    >洛伦 · 伊普苏姆 · 多洛坐在阿米特， 安慰阿迪皮斯 · 埃利特。阿里夸姆 id 净化在里苏斯佩伦特式浮士德阿奎斯埃罗斯。在欧盟发酵狮子座。整数出埃罗斯拉库斯。普罗因出累积里奥。莫比维塔埃斯特自己的多洛尔康塞夸特阿利夸姆自己的奎斯多洛尔。毛里斯鲁特鲁姆发酵抹去， 那个尤斯莫德 · 洛伦 · 法雷特拉 · 内克。杜伊斯 · 埃夫特 · 莱图斯， 乌尔特里斯 · 尤斯莫特 · 萨吉蒂斯在， 法雷特拉 · 尤尼斯尔。相勒斯id感觉到了那个真正的小母马。艾尼安 · 多洛尔 · 特里斯蒂克 · 内克特里斯蒂克 · 努拉 · 阿利奎特 · 埃尼姆 · 托尔特在奥克托 · 乌尔纳 · 努克坐在阿梅特阿利夸姆 id 迪亚姆 · 梅塞纳斯 · 乌尔特里斯我自己。</p>
                     <a class="btn btn-primary btn-shadow" href="shop-grid-ls.html">View products</a>
                 </div>
             </div>
@@ -20,24 +21,24 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2"
-                style="min-height: 15rem; background-image: url(../assets/images/about/02.jpg);"
+                :style="{ minHeight: '15rem',backgroundImage: 'url(../assets/images/about/02.jpg)' }"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
                     <h2 class="h3 pb-3">Fast delivery worldwide</h2>
                     <p
                         class="fs-sm pb-3 text-muted"
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id purus at risus pellentesque faucibus a quis eros. In eu fermentum leo. Integer ut eros lacus. Proin ut accumsan leo. Morbi vitae est eget dolor consequat aliquam eget quis dolor. Mauris rutrum fermentum erat, at euismod lorem pharetra nec. Duis erat lectus, ultrices euismod sagittis at, pharetra eu nisl. Phasellus id ante at velit tincidunt hendrerit. Aenean dolor dolor tristique nec. Tristique nulla aliquet enim tortor at auctor urna nunc. Sit amet aliquam id diam maecenas ultricies mi eget.</p>
+                    >洛伦 · 伊普苏姆 · 多洛坐在阿米特， 安慰阿迪皮斯 · 埃利特。阿里夸姆 id 净化在里苏斯佩伦特式浮士德阿奎斯埃罗斯。在欧盟发酵狮子座。整数出埃罗斯拉库斯。普罗因出累积里奥。莫比维塔埃斯特自己的多洛尔康塞夸特阿利夸姆自己的奎斯多洛尔。毛里斯鲁特鲁姆发酵抹去， 那个尤斯莫德 · 洛伦 · 法雷特拉 · 内克。杜伊斯 · 埃夫特 · 莱图斯， 乌尔特里斯 · 尤斯莫特 · 萨吉蒂斯在， 法雷特拉 · 尤尼斯尔。相勒斯id感觉到了那个真正的小母马。艾尼安 · 多洛尔 · 特里斯蒂克 · 内克特里斯蒂克 · 努拉 · 阿利奎特 · 埃尼姆 · 托尔特在奥克托 · 乌尔纳 · 努克坐在阿梅特阿利夸姆 id 迪亚姆 · 梅塞纳斯 · 乌尔特里斯我自己。</p>
                     <a class="btn btn-accent btn-shadow" href="#">Shipping details</a>
                 </div>
             </div>
         </section>
-        <!-- Row: Mobile app-->
+        <!-- Row: Mobile app   :style="{min-height: 15rem; background-image: url(../assets/images/about/03.jpg)}"-->
         <section class="row g-0">
-            <div
-                class="col-md-6 bg-position-center bg-size-cover bg-secondary"
-                style="min-height: 15rem; background-image: url(../assets/images/about/03.jpg);"
+            <div class="col-md-6 bg-position-center bg-size-cover bg-secondary"
+            :style="{ minHeight: '15rem',backgroundImage: 'url(../assets/images/about/03.jpg)' }"
             ></div>
+           
             <div class="col-md-6 px-3 px-md-5 py-5">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
                     <h2 class="h3 pb-3">Great mobile app. Shop on the go</h2>
@@ -59,7 +60,7 @@
         <section class="row g-0">
             <div
                 class="col-md-6 bg-position-center bg-size-cover bg-secondary order-md-2"
-                style="min-height: 15rem; background-image: url(../assets/images/about/04.jpg);"
+                :style="{ minHeight: '15rem',backgroundImage: 'url('+require('../assets/images/about/04.jpg')+')' }"
             ></div>
             <div class="col-md-6 px-3 px-md-5 py-5 order-md-1">
                 <div class="mx-auto py-lg-5" style="max-width: 35rem;">
@@ -249,6 +250,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-    name: 'About'
+    name: 'About',
+  
 })
 </script>

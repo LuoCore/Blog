@@ -19,11 +19,11 @@
                     </button>
                     <a
                         class="btn btn-primary btn-shadow"
-                        href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                        href="http://www.luocore.com"
                         target="_blank"
                         rel="noopener"
                     >
-                        <i class="ci-cart me-2"></i>Buy now
+                        <i class="ci-cart me-2"></i>Luo Core
                     </a>
                 </div>
                 <div class="collapse navbar-collapse me-auto order-lg-2" id="navbarCollapse">
@@ -42,7 +42,7 @@
                             v-on:click="addActiveClass('2')"
                             :class="{ active: currentValue == '2' }"
                         >
-                            <router-link class="nav-link" to="/About">关于我</router-link>
+                            <router-link class="nav-link" to="/About">关于我们</router-link>
                         </li>
                         <li
                             class="nav-item"
@@ -61,6 +61,8 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
+	
+
 export default defineComponent({
     name: 'Navbar',
     data() {
@@ -72,6 +74,14 @@ export default defineComponent({
     methods: {
         addActiveClass: function(index: string) {
             this.currentValue = index;
+        }
+    },
+    props:{
+        activeClassValue:String
+    },
+    watch:{
+        activeClassValue (){
+            this.currentValue = this.activeClassValue+"";
         }
     }
 })

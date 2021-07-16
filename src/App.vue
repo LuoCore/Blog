@@ -8,10 +8,10 @@
 
 <template>
   <Signin />
-  <Navbar />
+  <Navbar :activeClassValue="activeClassValue" />
   <router-view />
   <FooterPage />
-  <ToolbarForHandheldDevices />
+  <ToolbarForHandheldDevices @activeClassValue="receiveActiove" />
   <BackToTopButton />
 </template>
 
@@ -34,6 +34,17 @@ export default defineComponent({
     FooterPage,
     BackToTopButton,
     ToolbarForHandheldDevices
+  },
+  data()
+  {
+    return{
+      activeClassValue:""
+    }
+  },
+  methods:{
+    receiveActiove (res:string){
+      this.activeClassValue=res;
+    }
   }
 });
 

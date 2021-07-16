@@ -2,7 +2,7 @@
     <div class="handheld-toolbar">
         <div class="d-table table-layout-fixed w-100">
 
-            <router-link to="/About" class="d-table-cell handheld-toolbar-item">
+            <router-link to="/About" class="d-table-cell handheld-toolbar-item" @click="ActiveClassValue('2')">
                 <span class="handheld-toolbar-icon">
                     <i class="ci-heart"></i>
                 </span>
@@ -20,7 +20,7 @@
                 </span>
                 <span class="handheld-toolbar-label">菜单</span>
             </a>
-            <router-link to="/BlogSingle" class="d-table-cell handheld-toolbar-item">
+            <router-link to="/BlogSingle" class="d-table-cell handheld-toolbar-item" @click="ActiveClassValue('3')">
                 <span class="handheld-toolbar-icon">
                     <i class="ci-cart"></i>
                     <span class="badge bg-primary rounded-pill ms-1">4</span>
@@ -34,7 +34,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import dddd from './Navbar.vue'
 export default defineComponent({
-    name: 'ToolbarForHandheldDevices'
+    name: 'ToolbarForHandheldDevices',
+    methods: {
+        ActiveClassValue: function(req:string) {
+            this.$emit('activeClassValue', req)
+        }
+    }
+    
 })
 </script>
