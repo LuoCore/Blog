@@ -9,22 +9,22 @@
             <div class="row pt-md-5 pb-lg-5 justify-content-center">
                 <div class="col-xl-7 col-lg-8 col-md-10 text-center py-xl-3">
                     <h1 class="text-light pb-sm-3">
-                        <span class="fw-light">Multipurpose</span> Bootstrap 5
-                        <br />E-Commerce
-                        <span class="fw-light">Template</span>
+                        <span class="fw-light">CTMS</span> 智能集运系统
+                        <br />客户管理系统
+                        <span class="fw-light">CRM</span>
                     </h1>
-                    <span class="d-inline-block h5 text-light fw-light mx-2 opacity-70">单身的 / 多-小贩</span>
-                    <span class="d-inline-block h3 text-light fw-light mx-2">市场</span>
-                    <span class="d-inline-block h4 text-light fw-light mx-2 opacity-70">时尚</span>
-                    <span class="d-inline-block h3 text-light fw-light mx-2 opacity-90">电子产品</span>
-                    <span class="d-inline-block h6 text-light fw-light mx-2 opacity-60">大车</span>
-                    <span class="d-inline-block h3 text-light fw-light mx-2">杂货店</span>
-                    <span class="d-inline-block h5 text-light fw-light mx-2 opacity-80">查看</span>
-                    <span class="d-inline-block h4 text-light fw-light mx-2">Food Delivery</span>
-                    <span class="d-inline-block fs-lg text-light fw-light mx-2 opacity-60">帐户 / 抄写板</span>
+                    <span class="d-inline-block h5 text-light fw-light mx-2 opacity-70">极简用户体验</span>
+                    <span class="d-inline-block h3 text-light fw-light mx-2">操作智能化</span>
+                    <span class="d-inline-block h4 text-light fw-light mx-2 opacity-70">大数据集运</span>
+                    <span class="d-inline-block h3 text-light fw-light mx-2 opacity-90">图文识别技术</span>
+                    <span class="d-inline-block h6 text-light fw-light mx-2 opacity-60">语音识别技术</span>
+                    <span class="d-inline-block h3 text-light fw-light mx-2">三维成像技术</span>
+                    <span class="d-inline-block h5 text-light fw-light mx-2 opacity-80">动态平衡测量</span>
+                    <span class="d-inline-block h4 text-light fw-light mx-2">一口价计费</span>
+                    <span class="d-inline-block fs-lg text-light fw-light mx-2 opacity-60">分抛计算法</span>
                     <div class="py-4 py-sm-5">
                         <a class="btn btn-primary btn-lg" href="#demos" data-scroll>
-                            看法 演示
+                            操作演示
                             <i class="ci-arrow-down-circle ms-2"></i>
                         </a>
                     </div>
@@ -36,9 +36,9 @@
     <section class="container pt-5 pb-3 pb-lg-5" id="demos">
         <div class="text-center pt-md-4 pb-2">
             <h2>
-                <span class="fw-light">Explore</span> Cartzilla 演示
+                <span class="fw-light">国际货代</span> 智能配载解决方案
             </h2>
-            <p class="text-muted">探索仔细构建主页的集合。更多来来很快!</p>
+            <p class="text-muted">根据多条件生成精准配载方案；大数据云计算支持“一键配载”</p>
         </div>
         <div class="row pt-4">
             <div class="col-sm-6 mb-4">
@@ -53,7 +53,7 @@
                             </a>
                             <a
                                 class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                href="http://www.luocore.com"
                                 target="_blank"
                                 rel="noopener"
                             >
@@ -61,11 +61,11 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-fashion-store-v1.html"></a>
-                        <img src="../assets/images/home/preview/01.jpg" alt="Fashion Store v.1" />
+                        <img src="../assets/images/home/preview/01.png" alt="智能集运系统" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-fashion-store-v1.html">时尚 店铺 v.1</a>
+                            <a href="home-fashion-store-v1.html">智能集运系统</a>
                         </h3>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                             </a>
                             <a
                                 class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                href="http://www.luocore.com"
                                 target=" blank"
                                 rel="noopener"
                             >
@@ -90,11 +90,11 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-electronics-store.html"></a>
-                        <img src="../assets/images/home/preview/03.jpg" alt="Electronics Store" />
+                        <img src="../assets/images/home/preview/02.png" alt="Electronics Store" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-electronics-store.html">电子产品 店铺</a>
+                            <a href="home-electronics-store.html">集运仓储管理系统</a>
                         </h3>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                             </a>
                             <a
                                 class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                href="http://www.luocore.com"
                                 target="_blank"
                                 rel="noopener"
                             >
@@ -119,11 +119,11 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-food-delivery.html"></a>
-                        <img src="../assets/images/home/preview/07.jpg" alt="Food Delivery Service" />
+                        <img src="../assets/images/home/preview/03.png" alt="Food Delivery Service" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-food-delivery.html">食物 交货 服务</a>
+                            <a href="home-food-delivery.html">国际货代智能配载解决方案</a>
                         </h3>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                             </a>
                             <a
                                 class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                href="http://www.luocore.com"
                                 target="_blank"
                                 rel="noopener"
                             >
@@ -148,11 +148,11 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-marketplace.html"></a>
-                        <img src="../assets/images/home/preview/04.jpg" alt="Multi-vendor Marketplace" />
+                        <img src="../assets/images/home/preview/04.png" alt="Multi-vendor Marketplace" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-marketplace.html">多-小贩 市场</a>
+                            <a href="home-marketplace.html">智慧仓储系统解决方案</a>
                         </h3>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                             </a>
                             <a
                                 class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                href="https://www.luocore.com"
                                 target="_blank"
                                 rel="noopener"
                             >
@@ -177,80 +177,24 @@
                             </a>
                         </div>
                         <a class="product-thumb-overlay" href="home-grocery-store.html"></a>
-                        <img src="../assets/images/home/preview/06.jpg" alt="Grocery Store" />
+                        <img src="../assets/images/home/preview/05.png" alt="Grocery Store" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-grocery-store.html">杂货店 店铺</a>
+                            <a href="home-grocery-store.html">运费大数据计算查询系统</a>
                         </h3>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 mb-4">
-                <div class="card product-card-alt">
-                    <div class="product-thumb border">
-                        <div class="product-card-actions">
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="home-fashion-store-v2.html"
-                            >
-                                <i class="ci-eye"></i>
-                            </a>
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
-                                target="_blank"
-                                rel="noopener"
-                            >
-                                <i class="ci-cart"></i>
-                            </a>
-                        </div>
-                        <a class="product-thumb-overlay" href="home-fashion-store-v2.html"></a>
-                        <img src="../assets/images/home/preview/02.jpg" alt="Fashion Store v.2" />
-                    </div>
-                    <div class="card-body text-center">
-                        <h3 class="product-title fs-lg pt-2">
-                            <a href="home-fashion-store-v2.html">时尚 店铺 v.2</a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 mb-4">
-                <div class="card product-card-alt">
-                    <div class="product-thumb border">
-                        <div class="product-card-actions">
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="home-single-store.html"
-                            >
-                                <i class="ci-eye"></i>
-                            </a>
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
-                                target="_blank"
-                                rel="noopener"
-                            >
-                                <i class="ci-cart"></i>
-                            </a>
-                        </div>
-                        <a class="product-thumb-overlay" href="home-single-store.html"></a>
-                        <img src="../assets/images/home/preview/05.jpg" alt="Single Product / Brand Store" />
-                    </div>
-                    <div class="card-body text-center">
-                        <h3 class="product-title fs-lg pt-2">
-                            <a href="home-single-store.html">单身的 产品 / 牌 店铺</a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
+          
+          
             <div class="col-sm-6 mb-4">
                 <div class="card product-card-alt">
                     <div class="product-thumb">
-                        <img src="../assets/images/home/preview/coming.png" alt="Coming Soon" />
+                        <img src="../assets/images/home/preview/06.png" alt="Coming Soon" />
                     </div>
                     <div class="card-body text-center">
-                        <h3 class="fs-lg pt-2">未来 很快</h3>
+                        <h3 class="fs-lg pt-2">相信LuoCore</h3>
                     </div>
                 </div>
             </div>
@@ -262,40 +206,41 @@
             <div class="row align-items-center">
                 <div class="col-xl-4 col-lg-5 pb-4 pb-lg-0">
                     <h2 class="text-light">
-                        <span class="fw-light">Complete</span> E-商业 正面-结尾
-                        <span class="fw-light">解决方案</span>
+                        <span class="fw-light">从入库分配仓位，上架、出库发货实现</span> 精准
+                        <span class="fw-light">
+                            化仓储管理</span>
                     </h2>
-                    <p class="text-light opacity-70">您所需要的所有电子商务项目</p>
+                    <p class="text-light opacity-70">精准仓位管理，不再盲目扩仓。</p>
                     <ul class="text-light list-unstyled pt-3">
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>商店网格/列表布局选项
+                            <i class="ci-check-circle text-success me-2"></i>精准入库根据货物重量、长、宽、高匹配符合条件的仓位。
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>多个产品页面变体
+                            <i class="ci-check-circle text-success me-2"></i>根据客户属性，分配指定仓位；为出库分拣做铺垫，提升周转效率。
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>完成订单工作流程：购物车+结帐
+                            <i class="ci-check-circle text-success me-2"></i>根据仓位实时存放预警控制，避免二次配仓，节约人工。
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>商店客户帐户页面
+                            <i class="ci-check-circle text-success me-2"></i>重量体积配载：当次配货的装载量
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>多供应商市场的供应商仪表板
+                            <i class="ci-check-circle text-success me-2"></i>运输要求配载：航司对特殊货物比例要求
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>准备好任何内容：时尚，电子，数字（可下载）产品，等等.
+                            <i class="ci-check-circle text-success me-2"></i>清关要求配载：海关对货物要求
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>博客页面：博客布局+单个帖子
+                            <i class="ci-check-circle text-success me-2"></i>支持95%以上的运费计算方式；执行单数据表查询，支持大数据运算
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>帮助中心/支持页面
+                            <i class="ci-check-circle text-success me-2"></i>客户优先配载：VIP客户的货物优先配载。
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>辅助页面：关于，联系人，404等.
+                            <i class="ci-check-circle text-success me-2"></i>大数据云计算支持“一键配载”。
                         </li>
                         <li>
-                            <i class="ci-check-circle text-success me-2"></i>40多个柔性组件
+                            <i class="ci-check-circle text-success me-2"></i>根据多条件生成精准配载方案
                         </li>
                     </ul>
                 </div>
@@ -314,18 +259,18 @@
                 >
                     <span class="badge badge-info fs-sm mb-4">From v1.2</span>
                     <h2>
-                        <span class="fw-light">甚至 更多的</span> 移动的 友谊赛
-                        <span class="fw-light">界面</span>
+                        <span class="fw-light">运费</span> 大数据
+                        <span class="fw-light">计算查询系统</span>
                     </h2>
                     <p class="text-muted pb-2">
-                        新的
-                        <span class="fw-medium">工具栏</span> 专为手持设备而设计，以进一步提高用户体验.
+                        LuoCore
+                        <span class="fw-medium">长期摸索实践</span> 对当前物流行业运费进行算法融合，支持物流行业95%的运费计算要求
                     </p>
-                    <p class="fs-sm">扫描下面的QR码在您的设备上测试:</p>
-                    <img src="../assets/images/intro/qrcode.png" width="150" alt="QR code" />
+                    <p class="fs-sm">所有数据执行单数据表查询，核心算法支持大数据运算。</p>
+                    <img src="../assets/images/home/preview/05.png" width="150" alt="QR code" />
                 </div>
-                <div class="col-md-6">
-                    <img class="d-block mx-auto" src="../assets/images/intro/handheld-toolbar.jpg" alt="Toolbar" />
+                <div class="col-md-6" style="margin-top: 1rem;">
+                    <img class="d-block mx-auto" src="../assets/images/home/preview/07.jpg" alt="Toolbar" />
                 </div>
             </div>
         </div>
@@ -334,8 +279,8 @@
     <section class="py-5">
         <div class="container py-3 py-lg-4">
             <h2 class="text-center mb-4">
-                Cartzilla功能
-                <span class="fw-light">强调</span>
+                智慧仓储系统
+                <span class="fw-light">解决方案</span>
             </h2>
             <div class="row text-center pt-4">
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
@@ -345,10 +290,10 @@
                         width="90"
                         alt="Gulp icon"
                     />
-                    <h6>Kick-start Your Development</h6>
+                    <h6> 物流企业不断发展</h6>
                     <p
                         class="fs-ms text-muted mb-0"
-                    >使用Node.js和Gulp Setup快速轻松启动您的开发过程。配置文件包含在下载包中。完整的任务自动化.</p>
+                    >单一的业务渠道很难突破,发展多业务渠道，形成相互互补，以及成为业界常态。粗放式的仓储管理模式，已经很难适应当前要求。传统管理模式已经无法形成有效管理。一旦出现管理漏洞，少货、错货、找不到货会接踵而至；不排除员工因为管理漏洞而投机取巧。</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
@@ -357,10 +302,9 @@
                         width="90"
                         alt="Sass icon"
                     />
-                    <h6>易于使用sass自定义</h6>
-                    <p
-                        class="fs-ms text-muted mb-0"
-                    >Cartzilla使用Sass建造。轻松改变颜色，排版等等。它是世界上最成熟，稳定，强大的CSS扩展语言。</p>
+                    <h6>一体化集中式管理即节约办公成本</h6>
+               
+                    <p class="fs-ms text-muted mb-0">1、入库采用默认仓位或者随机仓位分配，操作人员上架时，发现货架已经被占满；重新配仓至少增加1倍人工。<br>2、大件 小件 重货 抛货都堆放在一起，发货找货，有如翻江倒海；为找一个小包裹，花了半小时，增加人工1倍以上。<br>3、货物被覆盖，发货时，把货物从仓位拉出来，需要突破层层阻碍；为发一件货，付出额外的人工不说，闪转腾挪的十几件货物，仓位存放一团糟，为下次出货制造障碍。<br>&nbsp;4、特长、特大、异型包装货物，严重占用仓位，整体利用率不高。<br>&nbsp;5、	长期库存货物，客户都忘记发货了，仓库积压越来越多，严重制约仓库周转效率。</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
@@ -369,10 +313,9 @@
                         width="90"
                         alt="Pug icon"
                     />
-                    <h6>帕格 - 节点模板引擎</h6>
-                    <p
-                        class="fs-ms text-muted mb-0"
-                    >如果您不想，无需编写大量的HTML。 Pug提供普通的HTML等功能，如变量，包括，Mixins，功能等.</p>
+                    <h6>仓库管理在于日常操作的细节</h6>
+                    <p  class="fs-ms text-muted mb-0">&nbsp; &nbsp; &nbsp; 只有从入库分配仓位，上架、出库发货实现精准化仓储管理，最大限度避免货损，提升仓库周转效率；减少不必要的人工操作，节约管理成本。电流仓派团队深耕仓配管理多年，从细节部署每一个仓储管理细节，从大局融合不同操作要求。精准入库根据货物重量、长、宽、高匹配符合条件的仓位。<br></p>
+                   
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img

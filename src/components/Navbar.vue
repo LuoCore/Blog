@@ -1,5 +1,6 @@
 <template>
     <header class="bg-light shadow-sm navbar-sticky">
+        <Topbar />
         <div class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand d-none d-sm-block me-4 order-lg-1" href="index.html">
@@ -60,11 +61,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Topbar from './Topbar.vue'
 
-	
 
 export default defineComponent({
     name: 'Navbar',
+    components: {
+        Topbar
+    },
     data() {
 
         return {
@@ -76,12 +80,12 @@ export default defineComponent({
             this.currentValue = index;
         }
     },
-    props:{
-        activeClassValue:String
+    props: {
+        activeClassValue: String
     },
-    watch:{
-        activeClassValue (){
-            this.currentValue = this.activeClassValue+"";
+    watch: {
+        activeClassValue() {
+            this.currentValue = this.activeClassValue + "";
         }
     }
 })

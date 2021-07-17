@@ -1,5 +1,5 @@
 <template>
-  <a class="btn-scroll-top" :class="{ show:isShowTopBtn  }" href="#top" data-scroll>
+  <a class="btn-scroll-top"  href="#top" data-scroll>
     <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
     <i class="btn-scroll-top-icon ci-arrow-up"></i>
   </a>
@@ -9,33 +9,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'BackToTopButton',
-  data(){
-    return {
-      isShowTopBtn:false
-    }
-      
-  },
-  mounted() {
-    window.addEventListener('scroll', this.scrollToTop);
-  },
-  methods: {
-    scrollToTop() {
-      var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-      if(scrollTop>3000){
-       this.isShowTopBtn=true;
-      }
-      else{
-        this.isShowTopBtn=false;
-      }
-    },
-    //离开该页面需要移除这个监听的事件，不然会报错;
-    destroyed() {
-      window.removeEventListener("scroll", this.scrollToTop);
-    }
-
-  }
-
+  name: 'BackToTopButton'
 });
 
 </script>
