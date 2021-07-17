@@ -9,7 +9,7 @@
           </a>
           <hr class="my-5">
           <div class="fs-ms text-muted text-center">© 版权所有。粤ICP备19059040号 <a class="text-muted" href="http://luocore.com" target="_blank" rel="noopener">Luo Core</a></div>
-          <div class="fs-ms text-muted text-center"><strong style="color: red;">本网站所有东西纯虚构，纯展示才艺地方，所有东西创作者不符任何责任。</strong></div>
+          <div class="fs-ms text-muted text-center"><strong style="color: red;">本网站所有东西纯虚构，纯展示才艺地方，所有东西创作者不负任何责任。</strong></div>
       </div>
   </footer>
 </template>

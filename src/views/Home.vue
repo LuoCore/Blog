@@ -267,7 +267,7 @@
                         <span class="fw-medium">长期摸索实践</span> 对当前物流行业运费进行算法融合，支持物流行业95%的运费计算要求
                     </p>
                     <p class="fs-sm">所有数据执行单数据表查询，核心算法支持大数据运算。</p>
-                    <img src="../assets/images/home/preview/05.png" width="150" alt="QR code" />
+                    <img src="../assets/images/home/preview/08.png"  />
                 </div>
                 <div class="col-md-6" style="margin-top: 1rem;">
                     <img class="d-block mx-auto" src="../assets/images/home/preview/07.jpg" alt="Toolbar" />
@@ -286,143 +286,68 @@
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="../assets/images/intro/features/01.png"
-                        width="90"
-                        alt="Gulp icon"
+                        src="../assets/images/intro/features/03.png"
+                        alt="L"
                     />
-                    <h6> 物流企业不断发展</h6>
+                    <h6>智能集运与传统集运的服务器运维支持</h6>
                     <p
                         class="fs-ms text-muted mb-0"
-                    >单一的业务渠道很难突破,发展多业务渠道，形成相互互补，以及成为业界常态。粗放式的仓储管理模式，已经很难适应当前要求。传统管理模式已经无法形成有效管理。一旦出现管理漏洞，少货、错货、找不到货会接踵而至；不排除员工因为管理漏洞而投机取巧。</p>
+                    >系统之所以叫系统，是一个全面的技术整合；就像“三好学生”，德智体需要全面；系统开发不能单纯的通过功能代码来衡量。服务器的运维支持，需要系统方面的配合，效率高、服务器选配，确实需要丰富的项目经验。我们不是项目的中结者，我们是项目的终结者。</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
                         src="../assets/images/intro/features/02.png"
-                        width="90"
-                        alt="Sass icon"
+                        alt="U"
                     />
-                    <h6>一体化集中式管理即节约办公成本</h6>
+                    <h6>智能集运系统的主要特点</h6>
                
-                    <p class="fs-ms text-muted mb-0">1、入库采用默认仓位或者随机仓位分配，操作人员上架时，发现货架已经被占满；重新配仓至少增加1倍人工。<br>2、大件 小件 重货 抛货都堆放在一起，发货找货，有如翻江倒海；为找一个小包裹，花了半小时，增加人工1倍以上。<br>3、货物被覆盖，发货时，把货物从仓位拉出来，需要突破层层阻碍；为发一件货，付出额外的人工不说，闪转腾挪的十几件货物，仓位存放一团糟，为下次出货制造障碍。<br>&nbsp;4、特长、特大、异型包装货物，严重占用仓位，整体利用率不高。<br>&nbsp;5、	长期库存货物，客户都忘记发货了，仓库积压越来越多，严重制约仓库周转效率。</p>
+                    <p class="fs-ms text-muted mb-0">智能集运系统做为传统集运系统的更新迭代产品。系统采用双语双模架构，使智能集运模式与传统集运模式并存，且以简体中文为蓝本，增加一种自定义国家地区语言，适应全球集运业务运营推广。智能集运系统以客户体验为中心，支持智能和传统模式切换，在为用户带来极简体验同时，兼顾传统集运客户。智能模式的极简体验，完全无需操作的无交互智能化控制操作；在保留传统优势的前提下，为客户提供更加便捷的用户体验。</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
-                        src="../assets/images/intro/features/03.png"
-                        width="90"
-                        alt="Pug icon"
+                        src="../assets/images/intro/features/01.png"
+                        alt="O"
                     />
-                    <h6>仓库管理在于日常操作的细节</h6>
-                    <p  class="fs-ms text-muted mb-0">&nbsp; &nbsp; &nbsp; 只有从入库分配仓位，上架、出库发货实现精准化仓储管理，最大限度避免货损，提升仓库周转效率；减少不必要的人工操作，节约管理成本。电流仓派团队深耕仓配管理多年，从细节部署每一个仓储管理细节，从大局融合不同操作要求。精准入库根据货物重量、长、宽、高匹配符合条件的仓位。<br></p>
+                    <h6>智能集运业务发展核心是中国商品的优势</h6>
+                    <p  class="fs-ms text-muted mb-0"> 智能集运是一种面向终端客户基于互联网的物流模式，物流发展依靠的是繁荣的商业，商业的基础是丰富的产品。随着中国近年来经济的飞速发展，中国商品不论从品类，还是质量，都有非常大的提升。中国商品誉响全球，中国商品的性价比优势在短时间内很难改变，这就是智能集运的根本。<br></p>
                    
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
                         src="../assets/images/intro/features/04.png"
-                        width="90"
-                        alt="Bootstrap icon"
+                        alt="C"
                     />
-                    <h6>建造 Bootstrap 5</h6>
+                    <h6>系统开发与管理操作</h6>
                     <p
                         class="fs-ms text-muted mb-0"
-                    >Cartzilla是基于Bootstrap 5的强大的电子商务前端解决方案 - 世界上最受欢迎的响应，移动式前端组件库.</p>
+                    >单纯的照顾员工的操作，会偏离系统开发的正确应用轨道；如果不从实际操作出发，系统也会成为一个累赘。“电流仓派”主创人员从事系统开发10余年，实际操作指导的项目也不少，接触的客户没有上万，上千肯定是有的。尤其对国际货代系统、国际专线系统、集运系统等国际物流类系统的部署开发与应用集成有一定的积累，可为企业实现智能化物流，降低运营成本提供专门解决方案。</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
                         src="../assets/images/intro/features/05.png"
-                        width="90"
                         alt="Web Components icon"
                     />
-                    <h6>40多个柔性组件</h6>
+                    <h6>集运的起源</h6>
                     <p
                         class="fs-ms text-muted mb-0"
-                    >除了造型的所有默认引导拖车5个组件Cartzilla推出您可以在本网站上使用的许多新的灵活性，可自定义和可重复使用的元素.</p>
+                    > 做集运不知集运起源，谈集运不知集运历史；集运业务起源于中国， 集运模式源于国际转运，集运出身于网络，具有特定的网络化属性。从海淘到代购，从转运到集运，作为集运系统化的亲历者， 懂集运历史，对集运发展由独到见解，如有集运方面的疑问，LuoCore可以提供全面规划与技术支持。</p>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
                     <img
                         class="inline-block mb-3"
                         src="../assets/images/intro/features/06.png"
-                        width="90"
                         alt="Mobile Friendly icon"
                     />
-                    <h6>移动友好界面</h6>
+                    <h6>集运的发展前景</h6>
                     <p
                         class="fs-ms text-muted mb-0"
-                    >现在，现在使用他们的移动设备在线购物超过70％的用户并不令人惊讶。 Cartzilla响应100％100％，针对小型触摸屏进行了优化。</p>
+                    >中国制造惠及全球近80亿人；近年来中国电子商务长足发展，在某些方面甚至超越了电商的发源地美国。 随着互联网的全球普及，很多外国友人开始通过中国电商平台购买中国商品。通过互联网获取商品咨询，购买中国商品，已然是全球潮流所趋。 统计数据显示中国海外华人和留学生有5000多万。</p>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
-                    <img
-                        class="inline-block mb-3"
-                        src="../assets/images/intro/features/07.png"
-                        width="90"
-                        alt="Google Fonts icon"
-                    />
-                    <h6>谷歌字体</h6>
-                    <p
-                        class="fs-ms text-muted mb-0"
-                    >Cartzilla使用免费，快速加载和非常高的谷歌字体。目前谷歌字体库包括870多个字体系列可供选择.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
-                    <img
-                        class="inline-block mb-3"
-                        src="../assets/images/intro/features/08.png"
-                        width="90"
-                        alt="Touch icon"
-                    />
-                    <h6>启用触摸的滑块</h6>
-                    <p
-                        class="fs-ms text-muted mb-0"
-                    >在触摸屏时代，重要的是确保在手持设备上提供极大的用户体验，特别是当涉及滑块的经常使用的接口组件时.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
-                    <img
-                        class="inline-block mb-3"
-                        src="../assets/images/intro/features/09.png"
-                        width="90"
-                        alt="Vector icon"
-                    />
-                    <h6>Vector Based HD Ready Icons</h6>
-                    <p
-                        class="fs-ms text-muted mb-0"
-                    >Cartzilla配有基于字体的图标包，以确保信息图表和接口图标在任何带有任何屏幕分辨率和像素密度的设备上都会锐利。</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
-                    <img
-                        class="inline-block mb-3"
-                        src="../assets/images/intro/features/10.png"
-                        width="90"
-                        alt="HTML5 icon"
-                    />
-                    <h6>W3C 有效的 HTML Code</h6>
-                    <p
-                        class="fs-ms text-muted mb-0"
-                    >通过W3C验证器检查所有HTML文件，以确保100％有效代码。正如您可能知道无效的HTML限制创新，但Cartzilla在其核心创新.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
-                    <img
-                        class="inline-block mb-3"
-                        src="../assets/images/intro/features/11.png"
-                        width="90"
-                        alt="JavaScript icon"
-                    />
-                    <h6>未来证明 JavaScript</h6>
-                    <p
-                        class="fs-ms text-muted mb-0"
-                    >Cartzilla核心脚本以及所有依赖项都在Vanilla JS中编写。现在使用Bootstrap 5，我们最终删除了J查询并使用ES6模块。</p>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter pb-2">
-                    <img
-                        class="inline-block mb-3"
-                        src="../assets/images/intro/features/12.png"
-                        width="90"
-                        alt="Documentation icon"
-                    />
-                    <h6>详细文档</h6>
-                    <p class="fs-ms text-muted mb-0">下载包包含在线文档的链接。它涵盖了有关如何开始，自定义模板和组件使用情况的所有关键信息。</p>
-                </div>
+               
             </div>
             <h6 class="text-center">以及更多...</h6>
         </div>
