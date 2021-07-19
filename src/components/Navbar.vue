@@ -50,7 +50,7 @@
                             @click="addActiveClass('3')"
                             :class="{ active: currentValue == '3' }"
                         >
-                            <router-link class="nav-link" to="/BlogSingle">博客</router-link>
+                            <router-link class="nav-link" to="/BlogList">博客</router-link>
                         </li>
                     </ul>
                 </div>

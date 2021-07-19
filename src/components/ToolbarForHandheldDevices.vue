@@ -20,7 +20,7 @@
                 </span>
                 <span class="handheld-toolbar-label">菜单</span>
             </a>
-            <router-link to="/BlogSingle" class="d-table-cell handheld-toolbar-item" @click="ActiveClassValue('3')">
+            <router-link to="/BlogList" class="d-table-cell handheld-toolbar-item" @click="ActiveClassValue('3')">
                 <span class="handheld-toolbar-icon">
                     <i class="ci-cart"></i>
                     <span class="badge bg-primary rounded-pill ms-1">4</span>
