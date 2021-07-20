@@ -130,26 +130,6 @@
                   <router-link to="/blog/WTJYD">LuoCore集运系统客户无提交运单操作</router-link>
                 </h2>
               </div>
-              <div class="blog-end-column">
-                <a class="blog-entry-thumb mb-3" href="blog-single.html">
-                  <img src="../assets/images/blog/03.jpg" alt="Post" />
-                </a>
-                <div class="d-flex justify-content-between mb-1">
-                  <div class="fs-sm text-muted pe-2 mb-2">LuoCore集运系统</div>
-                  <div class="fs-sm mb-2">
-                    <a class="blog-entry-meta-link text-nowrap" href="blog-single.html#comments">
-                      <i class="ci-message"></i>15
-                    </a>
-                  </div>
-                </div>
-                <p class="fs-sm">
-                  LuoCore集运系统的无提交运单操作的最终目的是解决客户操作问题，解决客户难度，解决管理痛点，不破不立。于其苦口婆心的教客户操作，还不如一力承担；这样节约大量人工成本的同时，也体现了集运企业的责任和担当。。。。
-                  <a
-                    href="blog-single.html"
-                    class="blog-entry-meta-link fw-medium"
-                  >[查看更多]</a>
-                </p>
-              </div>
             </article>
             <!-- Entry-->
             <article class="blog-list border-bottom pb-4">

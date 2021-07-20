@@ -16,7 +16,9 @@ const routes=[
     { path: '/home/PZ',name:'配载', component: ()=>import('../views/home/PZ.vue') },
     { path: '/home/CCXT',name:'仓储系统', component: ()=>import('../views/home/CCXT.vue') },
     { path: '/home/DSJJS',name:'大数据计算', component: ()=>import('../views/home/DSJJS.vue') },
-    
+    { path: '/about/CRM',name:'CRM客户管理系统', component: ()=>import('../views/about/CRM.vue') },
+    { path: '/about/TMS',name:'TMS运输管理系统', component: ()=>import('../views/about/TMS.vue') },
+    { path: '/about/CTMS',name:'CTMS集运管理系统', component: ()=>import('../views/about/CTMS.vue') },
 ]
 
 
