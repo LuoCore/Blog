@@ -44,86 +44,28 @@
             <div class="col-sm-6 mb-4">
                 <div class="card product-card-alt">
                     <div class="product-thumb border">
-                        <div class="product-card-actions">
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="home-fashion-store-v1.html"
-                            >
-                                <i class="ci-eye"></i>
-                            </a>
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="http://www.luocore.com"
-                                target="_blank"
-                                rel="noopener"
-                            >
-                                <i class="ci-cart"></i>
-                            </a>
-                        </div>
-                        <a class="product-thumb-overlay" href="home-fashion-store-v1.html"></a>
-                        <img src="../assets/images/home/preview/01.png" alt="智能集运系统" />
+                        
+                        <router-link class="product-thumb-overlay" to="/home/JYXT"></router-link>
+                        <img src="../assets/images/home/preview/02.png" alt="LuoCore集运系统" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-fashion-store-v1.html">智能集运系统</a>
+                            <router-link to="/home/JYXT">LuoCore集运系统</router-link>
                         </h3>
                     </div>
                 </div>
             </div>
+            
             <div class="col-sm-6 mb-4">
                 <div class="card product-card-alt">
                     <div class="product-thumb border">
-                        <div class="product-card-actions">
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="home-electronics-store.html"
-                            >
-                                <i class="ci-eye"></i>
-                            </a>
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="http://www.luocore.com"
-                                target=" blank"
-                                rel="noopener"
-                            >
-                                <i class="ci-cart"></i>
-                            </a>
-                        </div>
-                        <a class="product-thumb-overlay" href="home-electronics-store.html"></a>
-                        <img src="../assets/images/home/preview/02.png" alt="Electronics Store" />
-                    </div>
-                    <div class="card-body text-center">
-                        <h3 class="product-title fs-lg pt-2">
-                            <a href="home-electronics-store.html">集运仓储管理系统</a>
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 mb-4">
-                <div class="card product-card-alt">
-                    <div class="product-thumb border">
-                        <div class="product-card-actions">
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="home-food-delivery.html"
-                            >
-                                <i class="ci-eye"></i>
-                            </a>
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="http://www.luocore.com"
-                                target="_blank"
-                                rel="noopener"
-                            >
-                                <i class="ci-cart"></i>
-                            </a>
-                        </div>
-                        <a class="product-thumb-overlay" href="home-food-delivery.html"></a>
+                        
+                        <router-link to="/home/PZ" class="product-thumb-overlay" ></router-link>
                         <img src="../assets/images/home/preview/03.png" alt="Food Delivery Service" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-food-delivery.html">国际货代智能配载解决方案</a>
+                            <router-link to="/home/PZ">国际货代智能配载解决方案</router-link>
                         </h3>
                     </div>
                 </div>
@@ -131,28 +73,13 @@
             <div class="col-sm-6 mb-4">
                 <div class="card product-card-alt">
                     <div class="product-thumb border">
-                        <div class="product-card-actions">
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="home-marketplace.html"
-                            >
-                                <i class="ci-eye"></i>
-                            </a>
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="http://www.luocore.com"
-                                target="_blank"
-                                rel="noopener"
-                            >
-                                <i class="ci-cart"></i>
-                            </a>
-                        </div>
-                        <a class="product-thumb-overlay" href="home-marketplace.html"></a>
+                       
+                        <router-link to="/home/CCXT" class="product-thumb-overlay" ></router-link>
                         <img src="../assets/images/home/preview/04.png" alt="Multi-vendor Marketplace" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-marketplace.html">智慧仓储系统解决方案</a>
+                            <router-link to="/home/CCXT">LuoCore 仓储系统解决方案</router-link>
                         </h3>
                     </div>
                 </div>
@@ -160,28 +87,13 @@
             <div class="col-sm-6 mb-4">
                 <div class="card product-card-alt">
                     <div class="product-thumb border">
-                        <div class="product-card-actions">
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="home-grocery-store.html"
-                            >
-                                <i class="ci-eye"></i>
-                            </a>
-                            <a
-                                class="btn btn-light btn-icon btn-shadow fs-base mx-2"
-                                href="https://www.luocore.com"
-                                target="_blank"
-                                rel="noopener"
-                            >
-                                <i class="ci-cart"></i>
-                            </a>
-                        </div>
-                        <a class="product-thumb-overlay" href="home-grocery-store.html"></a>
+                        
+                        <routen-link to="/home/DSJJS" class="product-thumb-overlay" ></routen-link>
                         <img src="../assets/images/home/preview/05.png" alt="Grocery Store" />
                     </div>
                     <div class="card-body text-center">
                         <h3 class="product-title fs-lg pt-2">
-                            <a href="home-grocery-store.html">运费大数据计算查询系统</a>
+                            <routen-link to="/home/DSJJS">运费大数据计算查询系统</routen-link>
                         </h3>
                     </div>
                 </div>

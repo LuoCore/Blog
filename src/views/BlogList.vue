@@ -14,7 +14,7 @@
             <a class="blog-entry-meta-link" href="#">从事集运系统开发5年</a>
           </div>
           <div class="fs-sm mb-2">
-            <a class="blog-entry-meta-link text-nowrap" href="#comments" data-scroll>
+            <a class="blog-entry-meta-link text-nowrap" href="#" data-scroll>
               <i class="ci-message"></i>3
             </a>
           </div>
@@ -50,7 +50,7 @@
                   <a class="blog-entry-meta-link" href="#">2021年8月11日</a>
                 </div>
                 <h2 class="h5 blog-entry-title">
-                  <a href="blog-single.html">LuoCore 集运系统开发的初衷</a>
+                  <router-link to="/blog/JYXTKFCZ">LuoCore 集运系统开发的初衷</router-link>
                 </h2>
               </div>
               <div class="blog-end-column">
@@ -61,9 +61,9 @@
                     <a href="#" class="blog-entry-meta-link"></a>
                   </div>
                   <div class="fs-sm mb-2">
-                    <a class="blog-entry-meta-link text-nowrap" href="blog-single.html#comments">
+                    <router-link class="blog-entry-meta-link text-nowrap" to="/blog/JYXTKFCZ">
                       <i class="ci-message"></i>8
-                    </a>
+                    </router-link>
                   </div>
                 </div>
                 <p class="fs-sm">
@@ -89,17 +89,17 @@
                   <a class="blog-entry-meta-link" href="#">2021-07-19</a>
                 </div>
                 <h2 class="h5 blog-entry-title">
-                  <a href="blog-single.html">LuoCore集运系统客户无预报入库操作</a>
+                  <router-link to="/blog/WYBRK">LuoCore集运系统客户无预报入库操作</router-link>
                 </h2>
               </div>
               <div class="blog-end-column">
-                <a class="blog-entry-thumb mb-3" href="blog-single.html">
+                <router-like class="blog-entry-thumb mb-3"  to="/blog/WYBRK">
                   <img src="../assets/images/blog/01.jpg" alt="Post" />
-                </a>
+                </router-like>
                 <div class="d-flex justify-content-between mb-1">
                   <div class="fs-sm text-muted pe-2 mb-2">LuoCore集运系统</div>
                   <div class="fs-sm mb-2">
-                    <a class="blog-entry-meta-link text-nowrap" href="blog-single.html#comments">
+                    <a class="blog-entry-meta-link text-nowrap" href="#">
                       <i class="ci-message"></i>19
                     </a>
                   </div>
@@ -113,43 +113,7 @@
                 </p>
               </div>
             </article>
-            <!-- Entry-->
-            <article class="blog-list border-bottom pb-4 mb-5">
-              <div class="blog-start-column">
-                <div class="d-flex align-items-center fs-sm pb-2 mb-1">
-                  <a class="blog-entry-meta-link" href="#">
-                    <div class="blog-entry-author-ava">
-                      <img src="../assets/images/logo-dark.png" alt="LuoCore" />
-                    </div>LuoCore
-                  </a>
-                  <span class="blog-entry-meta-divider"></span>
-                  <a class="blog-entry-meta-link" href="#">2021-07-19</a>
-                </div>
-                <h2 class="h5 blog-entry-title">
-                  <a href="blog-single.html">LuoCore集运系统客户无提交运单操作</a>
-                </h2>
-              </div>
-              <div class="blog-end-column">
-                <a class="blog-entry-thumb mb-3" href="blog-single.html">
-                  <img src="../assets/images/blog/02.jpg" alt="Post" />
-                </a>
-                <div class="d-flex justify-content-between mb-1">
-                  <div class="fs-sm text-muted pe-2 mb-2">LuoCore集运系统</div>
-                  <div class="fs-sm mb-2">
-                    <a class="blog-entry-meta-link text-nowrap" href="blog-single.html#comments">
-                      <i class="ci-message"></i>15
-                    </a>
-                  </div>
-                </div>
-                <p class="fs-sm">
-                  LuoCore集运系统的无提交运单操作的最终目的是解决客户操作问题，解决客户难度，解决管理痛点，不破不立。于其苦口婆心的教客户操作，还不如一力承担；这样节约大量人工成本的同时，也体现了集运企业的责任和担当。…
-                  <a
-                    href="blog-single.html"
-                    class="blog-entry-meta-link fw-medium"
-                  >[更多]</a>
-                </p>
-              </div>
-            </article>
+       
             <!-- Entry-->
             <article class="blog-list border-bottom pb-4 mb-4">
               <div class="blog-start-column">
@@ -163,7 +127,7 @@
                   <a class="blog-entry-meta-link" href="#">2021-07-19</a>
                 </div>
                 <h2 class="h5 blog-entry-title">
-                  <a href="blog-single.html">LuoCore集运系统客户无提交运单操作</a>
+                  <router-link to="/blog/WTJYD">LuoCore集运系统客户无提交运单操作</router-link>
                 </h2>
               </div>
               <div class="blog-end-column">
@@ -183,7 +147,7 @@
                   <a
                     href="blog-single.html"
                     class="blog-entry-meta-link fw-medium"
-                  >[更多]</a>
+                  >[查看更多]</a>
                 </p>
               </div>
             </article>
@@ -200,7 +164,7 @@
                   <a class="blog-entry-meta-link" href="#">2021-07-19</a>
                 </div>
                 <h2 class="h5 blog-entry-title">
-                  <a href="blog-single.html">LuoCore集运系统发货分拣</a>
+                  <router-link to="/blog/FHFJ">LuoCore集运系统发货分拣</router-link>
                 </h2>
               </div>
               <div class="blog-end-column gallery">
@@ -226,10 +190,10 @@
                 </div>
                 <p class="fs-sm">
                   LuoCore集运系统LuoCore化发货分拣，首先解决人才的局限性；其次提升发货数据处理的效率；再次实现发货操作的精准控制，避免出现货损；最后因为通过体积重量的平衡调度的LuoCore化控制，实现利润最大化。一般来说有操作控制发货分拣的员工，基本都是公司的“大腿”,甚至有是BOSS亲自操刀。发货分拣看似简单，其实专业性非常强；首先需要熟练操作EXCEL，其次对不同渠道发货要求十分清楚，必须掌握每个渠道实时信息。这样的物流专业人才相对较少，毫不夸张的说，打个喷嚏全公司都要打哆嗦。…
-                  <a
-                    href="blog-single.html"
+                  <router-link
+                    to="/blog/FHFJ"
                     class="blog-entry-meta-link fw-medium"
-                  >[查看更多]</a>
+                  >[查看更多]</router-link>
                 </p>
               </div>
             </article>
