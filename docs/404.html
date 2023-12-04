@@ -1,47 +1,282 @@
-<!doctype html>
-<html lang="zh-cn">
-  <script id="allow-copy_script">(function agent() {
-    let unlock = false
-    document.addEventListener('allow_copy', (event) => {
-      unlock = event.detail.unlock
-    })
+<html lang="zh-cn" class=" "><script id="allow-copy_script">(function agent() {
+  let unlock = false
+  document.addEventListener('allow_copy', (event) => {
+    unlock = event.detail.unlock
+  })
 
-    const copyEvents = [
-      'copy',
-      'cut',
-      'contextmenu',
-      'selectstart',
-      'mousedown',
-      'mouseup',
-      'mousemove',
-      'keydown',
-      'keypress',
-      'keyup',
-    ]
-    const rejectOtherHandlers = (e) => {
-      if (unlock) {
-        e.stopPropagation()
-        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
-      }
+  const copyEvents = [
+    'copy',
+    'cut',
+    'contextmenu',
+    'selectstart',
+    'mousedown',
+    'mouseup',
+    'mousemove',
+    'keydown',
+    'keypress',
+    'keyup',
+  ]
+  const rejectOtherHandlers = (e) => {
+    if (unlock) {
+      e.stopPropagation()
+      if (e.stopImmediatePropagation) e.stopImmediatePropagation()
     }
-    copyEvents.forEach((evt) => {
-      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
-        capture: true,
-      })
+  }
+  copyEvents.forEach((evt) => {
+    document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+      capture: true,
     })
-  })()</script>
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Luo,Core,LuoCore">
-    <meta name="description" content="LuoCore是面向全球中文开发者的技术内容分享与交流平台。我们通过技术文章、，打造一个激发开发者创作灵感，激励开发者沉淀分享，陪伴开发者成长的综合类技术社区。">
-    <meta name="author" content="LuoCore">
-    <meta name="generator" content="C# Vue Vite">
-    <title><%- title %></title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
-</html>
+  })
+})()</script><head><meta charset="UTF-8"><link rel="icon" type="image/svg+xml" href="./vite.svg"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="keywords" content="Luo,Core,LuoCore"><meta name="description" content="LuoCore是面向全球中文开发者的技术内容分享与交流平台。我们通过技术文章、，打造一个激发开发者创作灵感，激励开发者沉淀分享，陪伴开发者成长的综合类技术社区。"><meta name="author" content="LuoCore"><meta name="generator" content="C# Vue Vite"><title>首页 - LuoCore</title><script type="module" crossorigin="" src="./assets/index-dfc0ddb4.js"></script><link rel="stylesheet" href="./assets/index-e9cb915e.css"><link rel="modulepreload" as="script" crossorigin="" href="https://www.luocore.com/assets/Home-a09b4d85.js"><link rel="stylesheet" href="https://www.luocore.com/assets/Home-c089c7d6.css"><style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+z-index: 2147483647;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.immersive-translate-input-loading {
+--loading-color: #f78fb6;
+width: 6px;
+height: 6px;
+border-radius: 50%;
+display: block;
+margin: 12px auto;
+position: relative;
+color: white;
+left: -100px;
+box-sizing: border-box;
+animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+}
+
+@keyframes immersiveTranslateShadowRolling {
+0% {
+  box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+}
+
+12% {
+  box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+}
+
+25% {
+  box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+}
+
+36% {
+  box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
+}
+
+50% {
+  box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color), 100px 0 var(--loading-color);
+}
+
+62% {
+  box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color), 110px 0 var(--loading-color);
+}
+
+75% {
+  box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color), 120px 0 var(--loading-color);
+}
+
+87% {
+  box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color);
+}
+
+100% {
+  box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+}
+}
+
+
+.immersive-translate-search-recomend {
+border: 1px solid #dadce0;
+border-radius: 8px;
+padding: 16px;
+margin-bottom: 16px;
+position: relative;
+font-size: 16px;
+}
+.immersive-translate-search-enhancement-en-title {
+color: #4d5156;
+}
+/* dark */
+@media (prefers-color-scheme: dark) {
+.immersive-translate-search-recomend {
+  border: 1px solid #3c4043;
+}
+.immersive-translate-close-action svg {
+  fill: #bdc1c6;
+}
+
+.immersive-translate-search-enhancement-en-title {
+color: #bdc1c6;
+}
+}
+
+
+.immersive-translate-search-settings {
+position: absolute;
+top: 16px;
+right: 16px;
+cursor: pointer;
+}
+
+.immersive-translate-search-recomend::before {
+/* content: " "; */
+/* width: 20px; */
+/* height: 20px; */
+/* top: 16px; */
+/* position: absolute; */
+/* background: center / contain url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAxlBMVEUAAADpTInqTIjpSofnSIfqS4nfS4XqS4nqTIjsTYnrTInqTIroS4jvQIDqTIn////+/v7rSYjpTIn8/v7uaZzrTIr9/f3wfansWJL88/b85e73qc39+/v3xNnylrvrVI/98fb62Obva5/8+fr76vH4y9zpSIj74e353Oj1ocTzm77xhK/veKbtYpjsXJTqU47oTInxjrXyh7L99fj40eH2ttH1udD3sc31ssz1rMnykLXucqPtbqD85e/1xdn2u9DzqcXrUY6FaJb8AAAADnRSTlMA34BgIM8Q37/fz7+/EGOHcVQAAAGhSURBVDjLhZPncuowEEZFTW7bXVU7xsYYTO/p7bb3f6lICIOYJOT4h7/VnFmvrBFjrF3/CR/SajBHswafctG0Qg3O8O0Xa8BZ6uw7eLjqr30SofCDVSkemMinfL1ecy20r5ygR5zz3ArcAqJExPTPKhDENEmS30Q9+yo4lEQkqVTiIEAHCT10xWERRdH0Bq0aCOPZNDV3s0xaYce1lHEoDHU8wEh3qRJypNcTAeKUIjgKMeGLDoRCLVLTVf+Ownj8Kk6H9HM6QXPgYjQSB0F00EJEu10ILQrs/QeP77BSSr0MzLOyuJJQbnUoOOIUI/A8EeJk9E4YUHUWiRyTVKGgQUB8/3e/NpdGlfI+FMQyWsCBWyz4A/ZyHXyiiz0Ne5aGZssoxRmcChw8/EFKQ5JwwkUo3FRT5yXS7q+Y/rHDZmFktzpGMvO+5QofA4FPpEmGw+EWRCFvnaof7Zhe8NuYSLR0xErKLThUSs8gnODh87ssy6438yzbLzxl012HS19vfCf3CNhnbWOL1eEsDda+gDPUvri8tSZzNFrwIZf1NmNvqC1I/t8j7nYAAAAASUVORK5CYII='); */
+}
+
+.immersive-translate-search-title {}
+
+.immersive-translate-search-title-wrapper {}
+
+.immersive-translate-search-time {
+font-size: 12px;
+margin: 4px 0 24px;
+color: #70757a;
+}
+
+.immersive-translate-expand-items {
+display: none;
+}
+
+.immersive-translate-search-more {
+margin-top: 16px;
+font-size: 14px;
+}
+
+.immersive-translate-modal {
+display: none;
+position: fixed;
+z-index: 1000000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgb(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.4);
+font-size:15px;
+}
+
+.immersive-translate-modal-content {
+background-color: #fefefe;
+margin: 15% auto;
+padding: 20px;
+border: 1px solid #888;
+border-radius: 10px;
+width: 80%;
+max-width: 500px;
+font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+  "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.immersive-translate-modal-title {
+font-size: 1.3rem;
+font-weight: 500;
+margin-bottom: 20px;
+color: hsl(205, 20%, 32%);
+}
+
+.immersive-translate-modal-body {
+color: hsl(205, 20%, 32%)
+}
+
+.immersive-translate-close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.immersive-translate-close:hover,
+.immersive-translate-close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+.immersive-translate-modal-footer {
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.immersive-translate-btn {
+width: fit-content;
+color: #fff;
+background-color: #ea4c89;
+border: none;
+font-size: 14px;
+margin: 5px;
+padding: 10px 20px;
+font-size: 1rem;
+border-radius: 5px;
+display: flex;
+align-items: center;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.immersive-translate-cancel-btn {
+/* gray color */
+background-color: rgb(89, 107, 120);
+}
+
+.immersive-translate-btn:hover {
+background-color: #f082ac;
+}
+
+.immersive-translate-cancel-btn:hover {
+background-color: hsl(205, 20%, 32%);
+}
+
+
+.immersive-translate-btn svg {
+margin-right: 5px;
+}
+
+.immersive-translate-link {
+cursor: pointer;
+user-select: none;
+-webkit-user-drag: none;
+text-decoration: none;
+color: #007bff;
+-webkit-tap-highlight-color: rgba(0, 0, 0, .1);
+}
+
+.immersive-translate-primary-link {
+cursor: pointer;
+user-select: none;
+-webkit-user-drag: none;
+text-decoration: none;
+color: #ea4c89;
+-webkit-tap-highlight-color: rgba(0, 0, 0, .1);
+}
+
+.immersive-translate-modal input[type="radio"] {
+margin: 0 6px;
+cursor: pointer;
+}
+
+.immersive-translate-modal label {
+cursor: pointer;
+}
+
+.immersive-translate-close-action {
+position: absolute;
+top: 2px;
+right: 0px;
+cursor: pointer;
+}
+</style></head><body><div id="app" data-v-app=""><div data-v-c4c2a5d0="" class="blog-contents"><header data-v-c4c2a5d0="" class="mx-auto"><nav data-v-c4c2a5d0="" class="bg-amber-700"><input data-v-c4c2a5d0="" type="checkbox" id="checkMenu"><label data-v-c4c2a5d0="" for="checkMenu" class="checkMenuBtn"><i data-v-c4c2a5d0="" class="layui-icon layui-icon-app"></i></label><label data-v-c4c2a5d0="" class="logo">LuoCore</label><ui data-v-c4c2a5d0="" class="Menu"><li data-v-c4c2a5d0=""><a data-v-c4c2a5d0="" aria-current="page" href="/./blogs/home" class="active router-link-exact-active">首页</a></li><li data-v-c4c2a5d0=""><a data-v-c4c2a5d0="" href="/./blogs/About" class="">关于我们</a></li><li data-v-c4c2a5d0=""><a data-v-c4c2a5d0="" href="/./blogs/Document" class="">博客文档</a></li></ui></nav></header><article data-v-c4c2a5d0=""><section class="shadow-2xl relative container mx-auto" data-v-487dbf07=""><div class="overlay bg-amber-600 blur-3xl" data-v-487dbf07=""></div><div class="mx-auto px-4" data-v-487dbf07=""><div class="text-center pt-4 pd-4 text-slate-200 blur-none" data-v-487dbf07=""><div class="w-md mx-auto xl:w-7/12 lg:w-2/3 md:w-10/12 text-center py-xl-3" data-v-487dbf07=""><h1 class="text-light py-8 text-2xl" data-v-487dbf07=""><span class="font-extrabold" data-v-487dbf07="">CMS</span> 智能集运系统 <br data-v-487dbf07="">客户管理系统 <span class="font-extrabold" data-v-487dbf07="">CRM</span></h1><span class="d-inline-block text-xl text-light font-light mx-2 opacity-70" data-v-487dbf07="">极简用户体验</span><span class="d-inline-block text-2xl text-light font-light mx-2" data-v-487dbf07="">操作智能化</span><span class="d-inline-block text-lg text-light font-light mx-2 opacity-70" data-v-487dbf07="">大数据集运</span><span class="d-inline-block text-2xl text-light font-light mx-2 opacity-90" data-v-487dbf07="">图文识别技术</span><span class="d-inline-block h6 text-light font-light mx-2 opacity-80" data-v-487dbf07="">语音识别技术</span><span class="d-inline-block text-2xl text-light font-light mx-2" data-v-487dbf07="">三维成像技术</span><span class="d-inline-block text-xl text-light font-light mx-2 opacity-70" data-v-487dbf07="">动态平衡测量</span><span class="d-inline-block text-lg text-light font-light mx-2" data-v-487dbf07="">一口价计费</span><span class="d-inline-block fs-lg text-light font-light mx-2 opacity-80" data-v-487dbf07="">分抛计算法</span><div class="py-12 max-sm:py-6" data-v-487dbf07=""><a class="luo-BtnRoundedAmber" href="#demos" data-scroll="" data-v-487dbf07="">操作演示<i class="ci-arrow-down-circle ms-2" data-v-487dbf07=""></i></a></div></div></div></div></section><section class="py-12" data-v-487dbf07=""><div class="container mx-auto px-4 lg:px-6" data-v-487dbf07=""><h2 class="text-center text-4xl md:mb-6 md:text-2xl" data-v-487dbf07=""><span class="font-light" data-v-487dbf07="">做大做强</span><em class="" data-v-487dbf07="">再创辉煌</em></h2><div class="flex flex-wrap -m-4" data-v-487dbf07=""><div class="xl:w-1/4 md:w-1/2 p-4" data-v-487dbf07=""><div class="bg-gray-100 p-6 rounded-lg" data-v-487dbf07=""><img class="luo-img object-cover object-center h-full w-full" src="https://www.luocore.com/assets/zfbSH-fed3cfae.jpg" alt="content" data-v-487dbf07=""><h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font" data-v-487dbf07="">一分之力，助力完成Luocore梦想！</h3><h2 class="text-lg text-gray-900 font-medium title-font mb-4" data-v-487dbf07="">一起为梦想努力奋斗吧！</h2><p class="leading-relaxed text-base luo-text-muted" data-v-487dbf07="">Luocore梦想的实现离不开你们的支持！现在，我们发起了一项特别活动，只需要你们一分钱的支持，就能助力完成Luocore的梦想！让我们携手并肩，共同创造辉煌！</p></div></div><div class="xl:w-1/4 md:w-1/2 p-4" data-v-487dbf07=""><div class="bg-gray-100 p-6 rounded-lg" data-v-487dbf07=""><img class="luo-img object-cover object-center h-full w-full" src="https://www.luocore.com/assets/zfb_HB-839acf19.jpg" alt="content" data-v-487dbf07=""><h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font" data-v-487dbf07="">支付宝领取红包</h3><h2 class="text-lg text-gray-900 font-medium title-font mb-4" data-v-487dbf07="">让你的口袋更丰盈！</h2><p class="leading-relaxed text-base luo-text-muted" data-v-487dbf07="">亲爱的小伙伴们，你们有没有想过通过扫描二维码就能轻松领取支付宝红包呢？现在，这个梦想成真了！只需要打开支付宝扫一扫，扫描下方的二维码，即可领取属于你的红包！让你的口袋更丰盈，快来参与吧！</p></div></div><div class="xl:w-1/4 md:w-1/2 p-4" data-v-487dbf07=""><div class="bg-gray-100 p-6 rounded-lg" data-v-487dbf07=""><img class="object-cover object-center h-full w-full" src="https://www.luocore.com/assets/wx_GZH-c0c4d98d.jpg" alt="content" data-v-487dbf07=""><h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font" data-v-487dbf07="">获取最新的技术分享和开发资讯，与我们一起成长和进步！多多支持，感谢大家的关注和分享！</h3><h2 class="text-lg text-gray-900 font-medium title-font mb-4" data-v-487dbf07="">我们一起探索日常开发技术的精彩分享吧！</h2><p class="leading-relaxed text-base luo-text-muted" data-v-487dbf07="">感谢你们对LuoCore的支持和关注！我们非常激动地宣布，我们的微信公众号正式上线啦！快来关注我们的公众号，与我们一起探索日常C#、.NET开发、Vue和前端技术的精彩分享吧！</p></div></div><div class="xl:w-1/4 md:w-1/2 p-4" data-v-487dbf07=""><div class="bg-gray-100 p-6 rounded-lg" data-v-487dbf07=""><h2 class="text-lg text-gray-900 font-medium title-font mb-4" data-v-487dbf07="">系统开发与管理操作</h2><p class="leading-relaxed text-base luo-text-muted" data-v-487dbf07="">单纯的照顾员工的操作，会偏离系统开发的正确应用轨道；如果不从实际操作出发，系统也会成为一个累赘。“电流仓派”主创人员从事系统开发10余年，实际操作指导的项目也不少，接触的客户没有上万，上千肯定是有的。尤其对国际货代系统、国际专线系统、集运系统等国际物流类系统的部署开发与应用集成有一定的积累，可为企业实现智能化物流，降低运营成本提供专门解决方案。</p></div></div></div></div></section></article><footer class="border-t-2 pd-5" data-v-c4c2a5d0=""><div class="container mx-auto text-center pt-6 lg:pt-4" data-v-c4c2a5d0=""><h2 class="text-4xl mb-6" data-v-c4c2a5d0="">LuoCore让你赢在第一线。</h2><a class="luo-BtnRoundedAmber" href="#" target="_blank" rel="noopener" data-v-c4c2a5d0=""><i class="ci-cart me-2" data-v-c4c2a5d0=""></i>您的集运首选 </a><hr class="my-5" data-v-c4c2a5d0=""><div class="fs-ms text-muted text-center" data-v-c4c2a5d0="">© 版权所有。粤ICP备19059040号 <a class="text-muted" href="http://www.luocore.com" target="_blank" rel="noopener" data-v-c4c2a5d0="">Luo Core</a></div><div class="fs-ms text-muted text-center" data-v-c4c2a5d0=""><strong style="color:red;" data-v-c4c2a5d0="">本网站所有东西纯虚构，纯展示才艺地方，所有东西创作者不负任何责任。如有侵权,请联系我们删除,谢谢!</strong></div></div></footer></div></div></body></html>
