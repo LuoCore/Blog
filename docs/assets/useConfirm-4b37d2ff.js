@@ -1,0 +1,1 @@
+import"./index-d8cbdd46.js";function u(c,s,m,f,o){(!o||o.length<0||o==null)&&(o="提示"),c.confirm(s,{title:o,btn:[{text:"确定",callback:async n=>{m(n)}},{text:"取消",callback:n=>{f?f(n):c.close(n)}}]})}export{u};
